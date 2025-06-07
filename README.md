@@ -28,8 +28,8 @@ Built with [Laravel](https://laravel.com/) and [Inertia.js](https://inertiajs.co
 
 1. **Clone the repo**
     ```bash
-    git clone https://github.com/your-username/csgo-log-analyzer.git
-    cd csgo-log-analyzer
+    git clone git@github.com:swamhtetaung8/csgo-match-analyzer.git
+    cd csgo-match-analyzer
     ```
 
 2. **Install dependencies**
