@@ -1,8 +1,8 @@
 import { Badge } from '@/components/ui/badge';
 import useMatchAnalyticHelper from '@/hooks/useMatchAnalyticHelper';
 import { cn } from '@/lib/utils';
-import { Clock, Crosshair } from 'lucide-react';
 import { Round } from '@/types/match';
+import { Clock, Crosshair } from 'lucide-react';
 
 interface RoundCardProps {
     round: Round;
@@ -16,7 +16,7 @@ interface RoundCardProps {
     team1: string;
 }
 
-export const RoundCard = ({
+export default function RoundCard({
     round,
     index,
     selectedRound,
@@ -26,7 +26,7 @@ export const RoundCard = ({
     team1BadgeBackgroundColor,
     team2BadgeBackgroundColor,
     team1,
-}: RoundCardProps) => {
+}: Readonly<RoundCardProps>) {
     const roundNum = index + 1;
     const { formatTime, getWinTypeIcon } = useMatchAnalyticHelper();
 
@@ -75,4 +75,4 @@ export const RoundCard = ({
             )}
         </div>
     );
-};
+}

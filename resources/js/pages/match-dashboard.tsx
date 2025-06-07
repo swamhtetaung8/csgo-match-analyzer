@@ -1,9 +1,9 @@
 import { Dispatch, SetStateAction, useState } from 'react';
 
-import { MatchOverview } from '@/components/match/MatchOverview';
-import { PlayerCard } from '@/components/match/PlayerCard';
-import { QuickStats } from '@/components/match/QuickStats';
-import { RoundCard } from '@/components/match/RoundCard';
+import MatchOverview from '@/components/match/MatchOverview';
+import PlayerCard from '@/components/match/PlayerCard';
+import QuickStats from '@/components/match/QuickStats';
+import RoundCard from '@/components/match/RoundCard';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';

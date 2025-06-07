@@ -19,7 +19,7 @@ interface MatchOverviewProps {
     onBack: () => void;
 }
 
-export const MatchOverview = ({
+export default function MatchOverview({
     map,
     matchDuration,
     teams,
@@ -28,7 +28,7 @@ export const MatchOverview = ({
     team1BadgeBackgroundColor,
     team2BadgeBackgroundColor,
     onBack,
-}: MatchOverviewProps) => {
+}: Readonly<MatchOverviewProps>) {
     const { formatTime } = useMatchAnalyticHelper();
 
     return (
@@ -66,4 +66,4 @@ export const MatchOverview = ({
             </CardContent>
         </Card>
     );
-};
+}
