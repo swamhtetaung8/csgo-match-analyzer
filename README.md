@@ -2,6 +2,14 @@
 
 A web-based tool that converts **raw CS:GO match logs** into detailed, user-friendly **match analytics** and visualizations.
 
+<p align="center">
+  <img src="assets/csgo-match-analyzer-thumbnail-1.jpg" width="100%" alt="Screenshot 1">
+</p>
+
+<p align="center">
+<img src="assets/csgo-match-analyzer-thumbnail-2.jpg" width="100%" alt="Screenshot 2">
+</p>
+
 Built with [Laravel](https://laravel.com/) and [Inertia.js](https://inertiajs.com/).
 
 ---
